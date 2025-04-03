@@ -1,0 +1,17 @@
+import random
+dice_sides = 6
+def roll_dice():
+    die1:int = random.randint(1, dice_sides)
+    die2:int = random.randint(1, dice_sides)
+    total:int = die1 + die2
+    print(f'You rolled a {die1} and a {die2} for a total of {total}')
+def main():
+    die1:int = 10
+    print("die1 in main() as: "+ str (die1))
+
+    roll_dice()
+    roll_dice()
+    roll_dice()
+    print ("die1 in main () is : " + str(die1))
+if __name__ == "__main__":
+    main()

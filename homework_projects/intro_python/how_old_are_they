@@ -1,0 +1,18 @@
+def main():
+    anton = 21
+    beth = 21 + 6
+    chen = 21 + 6 + 20
+    drew = 21 + 6 + 20 + 21
+    ethan = 21 +6 + 20
+    
+    print  (f'Age of Anton is {anton}')
+    print  (f'Age of Beth is {beth}')
+    print  (f'Age of Chen is {chen}')
+    print (f'Age of Drew is {drew}')
+    print (f'Age of Ethan is {ethan}')
+    
+    
+    
+    
+if __name__ == '__main__':
+    main()    

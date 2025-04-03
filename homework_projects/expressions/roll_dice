@@ -1,0 +1,13 @@
+import random
+def main():
+    roll_dice_1 = random.randint(1, 6)
+    print(f"The dice rolled a {roll_dice_1}")
+    roll_dice_2 = random.randint(1, 6)
+    print(f"The dice rolled a {roll_dice_2}")
+    total = roll_dice_1 + roll_dice_2 
+    print(f"The total is {total}")   
+    
+    
+if __name__ == "__main__":
+    main() 
+     

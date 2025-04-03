@@ -1,0 +1,8 @@
+def main():
+    AB : float = float(input("Enter the length of side a: "))
+    AC : float = float(input("Enter the length of side b: "))
+    BC = (AB**2 + AC**2)**0.5
+    print(f'The hypotenuse of the right triangle with sides {AB} and {AC} is {BC}')
+    
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,7 @@
+def main ():
+    foot = 12
+    feet : int = int(input("Enter the number of feets : "))
+    inches : int = feet * foot
+    print(f"The number of inches in {feet} feet is {inches}")
+if __name__ == "__main__":  
+    main()

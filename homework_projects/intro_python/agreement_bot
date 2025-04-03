@@ -1,0 +1,7 @@
+def main():
+    user_input : str = input("What is your favourite animal? :")
+
+    print(f'My Favourite animal is {user_input}')
+
+if __name__ == '__main__':
+    main()

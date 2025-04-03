@@ -1,0 +1,13 @@
+def main ():
+    num1 :int = int(input("Enter the number to be divided : "))
+    num2 :int  = int(input("Enter the number to divide by : "))
+    result : float = (num1 / num2)
+    print(f"The result of the division is {result}")
+    
+    remainder :int = num1 % num2
+    print(f"The remainder of the division is {remainder}")
+    
+if __name__ == "__main__":
+    main()
+    
+    
